@@ -1,4 +1,4 @@
-# Escuela
+# Escuela 1
 
 * Promedio de notas de un alumno.
 
@@ -24,6 +24,28 @@
   * Mostrar alumno
     * Alumno -----> funcion -----> nada
     * public void mostrar(Alumno alumno) { }
+
+# Resultado deportivos
+
+Quien gano un partido?
+
+1) modelo
+
+* Equipo
+  * nombre (texto)
+
+* Partido
+  * local (Equipo)
+  * visita (Equipo)
+  * golesLocal (entero)
+  * golesVisita (entero)
+
+2) Servicios 
+
+* PartidoServicio
+  * funcion: Partido ---> funcion ---> nombre del ganador (String)
+  * public String ganador(Partido part) { }
+
 
 
 
