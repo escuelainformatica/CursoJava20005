@@ -20,7 +20,12 @@ public class MainDeporte {
         String ganador=ps.ganador(partido);
         System.out.println("El ganador del primer partido es "+ganador);
 
+        Partido partido3=new Partido(colo,wanders,2,2);
+        String ganador3=ps.ganador(partido3);
+        System.out.println("El ganador del tercer partido es "+ganador3);
 
+
+        // 1) hay un problema con el calculo de ganador de un partido.
 
     }
 }

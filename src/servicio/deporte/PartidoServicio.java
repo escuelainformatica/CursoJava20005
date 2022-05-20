@@ -11,6 +11,11 @@ public class PartidoServicio {
         } else {
             resultado=part.getVisita().getNombre();
         }
+        if(part.getGolesLocal() == part.getGolesVisita()) {
+            resultado="empate";
+        }
+
         return resultado;
     }
+
 }
